@@ -52,9 +52,8 @@ Never enter passwords from unexpected links.
 Full table: `tests/test_samples.md`
 
 ## Screenshots
-![Sample run](screenshots/sample_run.png)
-![Test results](screenshots/test_results.png)
-
+![Sample Run](sample_run.png)
+![Test Results](test_results.png)
 ## Improvements
 1. Loop with quit - Before, the program closed after one URL. Now it keeps asking until I type q, so I can test many URLs in one run. I tested it by entering all five sample URLs and then quitting.
 2. Review carefully summary - I added a helper function called has_warnings() and a line that says "REVIEW CAREFULLY" with the number of warnings. I tested it with the IP address URL, which shows 2 warnings.
